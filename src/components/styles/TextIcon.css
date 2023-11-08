@@ -16,7 +16,7 @@
 }
 
 .textIcon img {
-    border-bottom: 2px double var(--dark-gray-700);
+    border-bottom: 2px double var(--gray-700);
     max-width: 112px;
     max-height: 112px;
     padding-bottom: 5px;

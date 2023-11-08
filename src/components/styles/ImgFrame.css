@@ -4,9 +4,9 @@
     position: relative;
     width: var(--size);
     height: var(--size);
-    border: 8px solid var(--dark-default);
-    background-color: var(--dark-gray-500);
-    box-shadow: var(--size-shadow) var(--size-shadow) 0 0 var(--dark-gray-200);
+    border: 8px solid var(--primary);
+    background-color: var(--gray-500);
+    box-shadow: var(--size-shadow) var(--size-shadow) 0 0 var(--gray-200);
     margin-bottom: var(--size-shadow);
     margin-right: var(--size-shadow);
 }
@@ -15,8 +15,8 @@
 @media screen and (width < 1024px) {
     .imgFrame {
         --size-shadow: 15px;
-        box-shadow: 0 var(--size-shadow) 0 0 var(--dark-gray-200),
-        var(--size-shadow) var(--size-shadow) 0 0 var(--dark-gray-200), calc(var(--size-shadow) * -1) var(--size-shadow) 0 0 var(--dark-gray-200);
+        box-shadow: 0 var(--size-shadow) 0 0 var(--gray-200),
+        var(--size-shadow) var(--size-shadow) 0 0 var(--gray-200), calc(var(--size-shadow) * -1) var(--size-shadow) 0 0 var(--gray-200);
         margin: 0 var(--size-shadow) var(--size-shadow) var(--size-shadow);
     }
 }

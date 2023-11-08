@@ -14,7 +14,7 @@
 
 .linkIcon[data-orientation='x']:has(span) :first-child {
     border: unset;
-    border-right: 2px double var(--dark-gray-700);
+    border-right: 2px double var(--gray-700);
     margin-bottom: 0;
     margin-right: 10px;
     padding-bottom: 0;
@@ -26,7 +26,7 @@
 }
 
 .linkIcon:has(span) :first-child {
-    border-bottom: 2px double var(--dark-gray-700);
+    border-bottom: 2px double var(--gray-700);
     max-width: 112px;
     max-height: 112px;
     padding-bottom: 5px;

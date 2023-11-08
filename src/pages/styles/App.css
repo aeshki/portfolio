@@ -10,7 +10,7 @@ section .container > .title {
   position: relative;
   text-align: center;
   font-size: 35px;
-  color: var(--dark-gray-800);
+  color: var(--gray-800);
 }
 
 section .container > .title::after {
@@ -21,11 +21,11 @@ section .container > .title::after {
   transform: translateX(-50%);
   width: 50%;
   height: 3px;
-  background-color: var(--dark-gray-700);
+  background-color: var(--gray-700);
 }
 
 section:nth-child(2n+1) {
-  background-color: var(--dark-default);
+  background-color: var(--primary);
 }
 
 section {

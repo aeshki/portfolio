@@ -6,8 +6,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--dark-default);
-  color: var(--dark-gray-900);
+  background-color: var(--primary);
+  color: var(--gray-900);
   padding: 16px 80px;
 }
 
@@ -19,7 +19,7 @@ header .menu {
 
 header .menu a {
   position: relative;
-  color: var(--gray-dark-600);
+  color: var(--dark-600);
   font-size: 16px;
   font-weight: 300;
   transition: .2s ease-in-out;
@@ -33,19 +33,19 @@ header .menu a::after {
   width: 60%;
   height: 100%;
   margin-top: 5px;
-  border-bottom: 2px solid var(--dark-gray-600);
+  border-bottom: 2px solid var(--gray-600);
   transition: .2s;
 }
 
 header .menu a:hover::after {
   left: 0;
   width: 100%;
-  border-bottom: 2px solid var(--dark-gray-800);
+  border-bottom: 2px solid var(--gray-800);
   transition: .2s;
 }
 
 header .menu a:hover {
-  color: var(--dark-gray-900);
+  color: var(--gray-900);
 }
 
 /* LOGO */
@@ -57,7 +57,7 @@ header .menu a:hover {
 .logo {
   user-select: none;
   pointer-events: none;
-  color: var(--dark-gray-900);
+  color: var(--gray-900);
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
@@ -65,7 +65,7 @@ header .menu a:hover {
 }
 
 .logo span {
-  color: var(--dark-gray-900);
+  color: var(--gray-900);
   animation: blink .8s infinite alternate;
 }
 
@@ -80,7 +80,7 @@ header .menu a:hover {
   height: 3px;
   width: 25px;
   margin: 5px;
-  background: var(--dark-gray-900);
+  background: var(--gray-900);
   transition: 0.5s ease;
 }
 
@@ -104,7 +104,7 @@ header :has(.menu.toggle) .burger span:nth-child(3) { transform: rotate(45deg) t
   nav .menu.toggle li {
     display: block;
     text-transform: uppercase;
-    color: var(--dark-gray-900);
+    color: var(--gray-900);
     padding: 20px 25px;
     opacity: 1;
     width: 100%;

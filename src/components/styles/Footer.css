@@ -3,12 +3,12 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 20px 80px;
-    background-color: var(--dark-gray-50);
+    background-color: var(--secondary);
 }
 
 footer > span {
     font-weight: 600;
-    color: var(--dark-gray-500);
+    color: var(--gray-500);
 }
 
 
