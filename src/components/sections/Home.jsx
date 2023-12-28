@@ -27,7 +27,21 @@ export default function Home() {
                             </svg>
                         }
                     >{About.location}</TextIcon>
-                    {!About.hasJob && (<TextIcon type='css' size='24' icon='icon-pulse'>Disponible pour travailler avec ou sans alternance</TextIcon>)}
+                    <TextIcon
+                        type='svg'
+                        size='32'
+                        icon={
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0.408 0.465 24.65 21.35">
+                                <path d="M 25.056 11.139 H 18.465 L 6.57 0.465 h 12.324 z" fill="#9ba1cb"/>
+                                <path d='M 6.57 0.465 l 3.297 5.709 l -3.297 15.639 l -6.162 -10.674 z' fill='#6777b0'></path>
+                                <path d=' M 6.57 21.813 l 3.297 -5.709 l 15.189 -4.965 l -6.162 10.674 z' fill='#2e5597'></path>
+                                <path d="M 6.57 21.813 l 3.297 -15.639 l 2.865 4.965 z" fill='#d7d9eb'></path>
+                                <path d='M 6.57 0.465 l 11.895 10.674 H 12.732 z' fill='#f5f5fb'></path>
+                                <path d='M 25.056 11.139 L 9.867 16.104 l 2.865 -4.965 z' fill='#afb3d6'></path>
+                            </svg>
+                        }
+                    >Arinfo - Centre de formation professionnelle / École<span className='date'>Nov. 2023 - Nov. 2024</span></TextIcon>
+                    {About.status_message && (<TextIcon type='css' size='24' icon='icon-pulse'>{About.status_message}</TextIcon>)}
                 </div>
                 <div>
                     <LinkIcon
